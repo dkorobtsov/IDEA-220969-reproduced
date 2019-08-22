@@ -14,7 +14,7 @@ My assumption is that problem appears when TestNG tests producing lot of output 
  
     1. Check out project
     2. Open in IntelliJ IDEA 2019.2+ as gradle project
-    3. Open IDE buil-in gradle console
+    3. Open IDE built-in gradle console
     4. Execute tasks > tests > javaFloodTest
     
     Expected result: tests are executed successfully (try executng tests with IDE platform runner to see expected results)
