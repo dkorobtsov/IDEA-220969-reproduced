@@ -3,13 +3,14 @@ package javaflood;
 import java.util.Random;
 import java.util.stream.Stream;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
 
 public class OutputFloodingTest {
 
-  private static final Logger log = org.apache.logging.log4j.LogManager
-      .getLogger(KotlinOutputFloodingTest.class);
+  private static final Logger log = LogManager
+      .getLogger(OutputFloodingTest.class);
 
   @Test
   public void generateLogOutput() {
